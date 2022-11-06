@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    background: #fff;
+    width: 430px;
+    height: 600px;
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.tela{
+    border: 1px solid #000;
+}
+.button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.line{
+    display: flex;
+    justify-content: space-around;
+    height: 108px;
+}
