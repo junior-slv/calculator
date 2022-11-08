@@ -15,7 +15,9 @@ const divided = document.getElementById('divided');
 const mult = document.getElementById('mult');
 const equal = document.getElementById('equal');
 
-var number1 = [];
+function Numeros(){
+    var number1 = [];
 var number2 = [];
+}
 
 
