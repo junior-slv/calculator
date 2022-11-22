@@ -80,25 +80,25 @@ const limpar = () =>{
     <div className="container">
       <div className="calculator">
         <div  id='display' className="div1">{display}</div>
-        <input value='AC' onClick={limpar}type='button' id='clear' className='div2'/>
-        <input value='+/-' type='button' id='tipo' className='div3'/>
-        <input value='%' onClick={porcentagem}type='button' id='porcentagem' className='div4'/>
-        <input value='/' onClick={dividir} type='button' id='divisao' className='div5'/>
-        <input value={7} onClick={() => setDisplay(display + button7)} type='button' id='sete' className='div6'/>
-        <input value={8} onClick={() => setDisplay(display + button8)} type='button' id='oite' className='div7'/>
-        <input value={9} onClick={() => setDisplay(display + button9)} type='button' id='nove' className='div8'/>
-        <input value='x' onClick={multiplicar} type='button' id='multiplicar' className='div9'/>
-        <input value={4} onClick={() => setDisplay(display + button4)} type='button' id='quatro' className='div10'/>
-        <input value={5} onClick={() => setDisplay(display + button5)} type='button' id='cinco' className='div11'/>
-        <input value={6} onClick={() => setDisplay(display + button6)} type='button' id='seis' className='div12'/>
-        <input value='-' onClick={diminuir} type='button' id='menos' className='div13'/>
-        <input value={1} onClick={() => setDisplay(display + button1)} type='button' id='um' className='div14'/>
-        <input value={2} onClick={() => setDisplay(display + button2)} type='button' id='dois' className='div15'/>
-        <input value={3} onClick={() => setDisplay(display + button3)} type='button' id='tres' className='div16'/>
-        <input value='+' onClick={somar}type='button' id='mais' className='div17'/>
-        <input value={0} onClick={() => setDisplay(display + button0)} type='button' id='zero' className='div18'/>
-        <input value=',' type='button' id='virgula' className='div19'/>
-        <input value='=' onClick={mostrarresultado} type='button' id='igual' className='div20'/>
+        <input value='AC' onClick={limpar}type='button' id='btn' className='div2'/>
+        <input value='+/-' type='button' id='btn' className='div3'/>
+        <input value='%' onClick={porcentagem}type='button' id='btn' className='div4'/>
+        <input value='/' onClick={dividir} type='button' id='btn' className='div5'/>
+        <input value={7} onClick={() => setDisplay(display + button7)} type='button' id='btn' className='div6'/>
+        <input value={8} onClick={() => setDisplay(display + button8)} type='button' id='btn' className='div7'/>
+        <input value={9} onClick={() => setDisplay(display + button9)} type='button' id='btn' className='div8'/>
+        <input value='x' onClick={multiplicar} type='button' id='btn' className='div9'/>
+        <input value={4} onClick={() => setDisplay(display + button4)} type='button' id='btn' className='div10'/>
+        <input value={5} onClick={() => setDisplay(display + button5)} type='button' id='btn' className='div11'/>
+        <input value={6} onClick={() => setDisplay(display + button6)} type='button' id='btn' className='div12'/>
+        <input value='-' onClick={diminuir} type='button' id='btn' className='div13'/>
+        <input value={1} onClick={() => setDisplay(display + button1)} type='button' id='btn' className='div14'/>
+        <input value={2} onClick={() => setDisplay(display + button2)} type='button' id='btn' className='div15'/>
+        <input value={3} onClick={() => setDisplay(display + button3)} type='button' id='btn' className='div16'/>
+        <input value='+' onClick={somar}type='button' id='btn' className='div17'/>
+        <input value={0} onClick={() => setDisplay(display + button0)} type='button' id='btn' className='div18'/>
+        <input value=',' type='button' id='btn' className='div19'/>
+        <input value='=' onClick={mostrarresultado} type='button' id='btn' className='div20'/>
       </div>
     </div>
   );
