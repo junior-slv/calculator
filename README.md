@@ -1,8 +1,7 @@
 # 🖥 **About**
-# At this project, I developed a simple calculator.
+At this project, I developed a simple calculator.
 # 🚀 **Techs**
-
----Typescript
----Html
----Css
+Typescript <br>
+Html <br>
+Css
 
